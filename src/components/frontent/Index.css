@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.root{
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+}
+.rot{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: blue;
+
+}
+.cd{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
