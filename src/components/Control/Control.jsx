@@ -6,7 +6,10 @@ const Control = () => {
         <div>
            
             <div className="container_control">
-            <h1>Lorem, ipsum.</h1>  
+            
+            <div className="box_control">
+            <h1>Lorem, ipsum.</h1>
+                </div>  
             </div>
         </div>
     )

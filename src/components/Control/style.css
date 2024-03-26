@@ -1,8 +1,17 @@
-.container_control{
+.container_control {
     width: 100%;
     height: 100vh;
     background-color: darkcyan;
 }
-.box__control{
 
+.box_control {
+    width: 500px;
+    height: 500px;
+    background-image: url(./167398L__04164.jpg);
+    background-size: cover;
+    
+}
+.box__control h1{
+    color: red;
+    cursor: pointer;
 }
