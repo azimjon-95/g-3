@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import Info from "./components/info/Info";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/home/Home";
+// import Control from "./components/Control/Control";
+
 
 const App = () => {
 
@@ -19,7 +21,12 @@ const App = () => {
 
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="*" element={<Home />} />
+         <Route path="*" element={<Home />} />
+
+        {/* <Route path="/Control" element={<Control />} /> */}
+
+
+       
 
       </Routes>
 
