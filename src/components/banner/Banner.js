@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 
+
 const Banner = () => {
     return (
         <div className='Banner'>
